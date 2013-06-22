@@ -1,0 +1,108 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Zelda - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\erana\AppData\Local\Temp\RSP611D.tmp" with contents
+[
+/nologo /MD /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /Fp"Debug/Zelda.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\erana\Desktop\Zelda\Enemy.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyDemon.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyDemon2.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyImpl.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyKnightBlue.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyKnightGreen.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyKnightRed.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyMyconid.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyMyconidWizard.cpp"
+"C:\Users\erana\Desktop\Zelda\EnemyOctorok.cpp"
+"C:\Users\erana\Desktop\Zelda\Entity.cpp"
+"C:\Users\erana\Desktop\Zelda\EntityInterface.cpp"
+"C:\Users\erana\Desktop\Zelda\Exit.cpp"
+"C:\Users\erana\Desktop\Zelda\GameEngine.cpp"
+"C:\Users\erana\Desktop\Zelda\Img.cpp"
+"C:\Users\erana\Desktop\Zelda\ImgSys.cpp"
+"C:\Users\erana\Desktop\Zelda\main.cpp"
+"C:\Users\erana\Desktop\Zelda\Player.cpp"
+"C:\Users\erana\Desktop\Zelda\Room.cpp"
+"C:\Users\erana\Desktop\Zelda\Room1.cpp"
+"C:\Users\erana\Desktop\Zelda\StateImg.cpp"
+"C:\Users\erana\Desktop\Zelda\Statue1.cpp"
+"C:\Users\erana\Desktop\Zelda\util.cpp"
+"C:\Users\erana\Desktop\Zelda\Wall.cpp"
+]
+Creating command line "cl.exe @C:\Users\erana\AppData\Local\Temp\RSP611D.tmp" 
+Creating temporary file "C:\Users\erana\AppData\Local\Temp\RSP611E.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Zelda.pdb" /debug /machine:I386 /out:"Debug/Zelda.exe" /pdbtype:sept 
+.\Debug\Enemy.obj
+.\Debug\EnemyDemon.obj
+.\Debug\EnemyDemon2.obj
+.\Debug\EnemyImpl.obj
+.\Debug\EnemyKnightBlue.obj
+.\Debug\EnemyKnightGreen.obj
+.\Debug\EnemyKnightRed.obj
+.\Debug\EnemyMyconid.obj
+.\Debug\EnemyMyconidWizard.obj
+.\Debug\EnemyOctorok.obj
+.\Debug\Entity.obj
+.\Debug\EntityInterface.obj
+.\Debug\Exit.obj
+.\Debug\GameEngine.obj
+.\Debug\Img.obj
+.\Debug\ImgSys.obj
+.\Debug\main.obj
+.\Debug\Player.obj
+.\Debug\Room.obj
+.\Debug\Room1.obj
+.\Debug\StateImg.obj
+.\Debug\Statue1.obj
+.\Debug\util.obj
+.\Debug\Wall.obj
+..\SDLmain.lib
+..\SDL.lib
+]
+Creating command line "link.exe @C:\Users\erana\AppData\Local\Temp\RSP611E.tmp"
+<h3>Output Window</h3>
+Compiling...
+Enemy.cpp
+EnemyDemon.cpp
+EnemyDemon2.cpp
+EnemyImpl.cpp
+EnemyKnightBlue.cpp
+EnemyKnightGreen.cpp
+EnemyKnightRed.cpp
+EnemyMyconid.cpp
+EnemyMyconidWizard.cpp
+EnemyOctorok.cpp
+EntityInterface.cpp
+Exit.cpp
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<zelda::SDL_main::EntityInterface *,std::allocator<zelda::SDL_main::EntityInterface *> >::iterator,zelda::SDL_main::EntityInterface *,zelda::SDL_main::EntityInterface * &,zelda::SDL_main::EntityInterface * *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<zelda::SDL_main::EntityInterface *,std::allocator<zelda::SDL_main::EntityInterface *> >::std::list<zelda::SDL_main::EntityInterface *,std::allocator<zelda::SDL_main::EntityInterface *> >(const std::allocator<zelda::SDL_main::EntityInterface *> &)'
+c:\program files\microsoft visual studio\vc98\include\list(131) : warning C4786: 'std::reverse_bidirectional_iterator<std::list<zelda::SDL_main::EntityInterface *,std::allocator<zelda::SDL_main::EntityInterface *> >::const_iterator,zelda::SDL_main::EntityInterface *,zelda::SDL_main::EntityInterface * const &,zelda::SDL_main::EntityInterface * const *,int>' : identifier was truncated to '255' characters in the debug information
+        c:\program files\microsoft visual studio\vc98\include\list(129) : while compiling class-template member function '__thiscall std::list<zelda::SDL_main::EntityInterface *,std::allocator<zelda::SDL_main::EntityInterface *> >::std::list<zelda::SDL_main::EntityInterface *,std::allocator<zelda::SDL_main::EntityInterface *> >(const std::allocator<zelda::SDL_main::EntityInterface *> &)'
+Img.cpp
+Player.cpp
+Room.cpp
+Room1.cpp
+StateImg.cpp
+Statue1.cpp
+util.cpp
+Wall.cpp
+Skipping... (no relevant changes detected)
+Entity.cpp
+GameEngine.cpp
+ImgSys.cpp
+main.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Zelda.exe - 0 error(s), 2 warning(s)
+</pre>
+</body>
+</html>
